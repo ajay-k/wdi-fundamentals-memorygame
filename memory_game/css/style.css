@@ -1,0 +1,21 @@
+h1{
+	font-family: "Raleway", sans-serif;
+	font-weight: 400;
+	letter-spacing: 1 px;
+	font-size: 45 px;
+	color: #0D2C40;
+	text-transform: uppercase;
+}
+
+h2{
+	font-family: "Raleway", serif;
+	color: #F15B31;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 18 px;
+	text-transform: uppercase;
+}
+
+body{
+	text-align: center;
+}
