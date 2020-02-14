@@ -1,24 +1,27 @@
 h1{
 	font-family: "Raleway", sans-serif;
 	font-weight: 400;
-	letter-spacing: 1 px;
-	font-size: 45 px;
-	color: #0D2C40;
+	letter-spacing: .05em;
+	font-size: 45px;
+	color: white;
 	text-transform: uppercase;
 	margin: 0;
 }
 
 h2{
 	font-family: "Raleway", serif;
-	color: #F15B31;
-	letter-spacing: 1px;
+	color: #0D2C40;
+	letter-spacing: .05em;
 	font-weight: 600;
-	font-size: 18 px;
+	font-size: 20px;
 	text-transform: uppercase;
 }
 
 body{
+	font-family: "Raleway", sans-serif;
 	text-align: center;
+	font-size: 18px;
+	-webkit-font-smoothing:antialiased;
 	margin: 0;
 }
 
@@ -26,6 +29,11 @@ header{
 	background-color: #F15B31;
 	color: #FFFFFF;
 	padding: 30px 20px 30px 20px;
+}
+
+p{
+	font-family: "Droid Serif", serif;
+	line-height: 26px;
 }
 
 nav{
@@ -39,6 +47,8 @@ a{
 	margin-right: 20px;
 	color: #FFFFFF;
 	text-decoration: none;
+	letter-spacing: .06em;
+	font-weight: 600;
 	text-transform: uppercase;
 	border-bottom: 2px solid transparent;
 }
