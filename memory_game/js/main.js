@@ -1,5 +1,27 @@
 //Declare array to store cards
-const cards = ["queen", "queen", "king", "king"];
+const cards = [
+{
+	rank: "queen",
+	suit: "hearts",
+	cardImage: "images/queen-of-hearts.png"
+},
+{
+	rank: "queen",
+	suit: "diamonds",
+	cardImage: "images/queen-of-diamonds.png"
+},
+{
+	rank: "king",
+	suit: "hearts",
+	cardImage: "images/king-of-hearts.png"
+
+},
+{
+	rank: "king",
+	suit: "diamonds",
+	cardImage: "images/king-of-diamonds.png"
+}
+];
 
 //Declare array to hold cards in play
 const cardsInPlay = [];
@@ -16,11 +38,13 @@ function checkForMatch(){
 
 function flipCard(cardId) {
 
-	console.log("User flipped " + cards[cardId]);
-
+	console.log("User flipped " + cards[cardId].rank);
+	console.log("Image: " + cards[cardId].cardImage)
 	//Add the card the user flipped over to cardsInPlay array
-	cardsInPlay.push(cards[cardId]);
+	cardsInPlay.push(cards[cardId].rank);
 	checkForMatch();
+
+
 
 }
 
