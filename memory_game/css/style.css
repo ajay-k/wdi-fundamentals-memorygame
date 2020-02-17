@@ -81,6 +81,33 @@ footer{
 	font-weight: 500;
 }
 
+table{
+	width : 50%;
+	border: 1px solid black;
+	margin-left:auto;
+	margin-right:auto;
+	border-color: #00A6B3;
+}
+
+
+button{
+	background-color: #00A6B3;
+	margin: 20px 20px 20px 20px;
+	color: white;
+	width: 20%;
+	height: 100%;
+	font-size: 20px;
+}
+.greentext{
+	color: green;
+}
+
+.redtext{
+	color:red;
+}
+
+
+
 .copyright{
 	font-family: "Raleway";
 	float: left;
